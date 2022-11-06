@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    color: #c11722;
+    text-align: center;
+    font-family: 'Rubik Bubbles', cursive;
+    font-size: 100px;
+}
+
+body {
+    background-image: url('Fon.jpg');
+    background-size: 100%;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    color: white;
+}
+
+.main {
+    background: rgba(16, 0, 0, 0.8);
+    width: 80%;
+    margin: auto;    
+}
+
+.container {
+    /* background: rgb(243, 145, 145); */
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+.image-left {
+    /* background: red; */
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.image-right {
+    /* background: greenyellow; */
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content:flex-end;
+}
+
+.block {
+    display: flex;
+    border-bottom: 2px solid yellow;
+    margin-bottom: 5%;
+    padding-bottom: 5%;
+}
+
+
+.text-left{
+    /* background: red; */
+    justify-content: flex-start;
+    margin: auto;
+    padding: 5%;
+}
+
+.text-right {
+    /* background: greenyellow; */
+    justify-content: flex-end;
+    margin: auto;
+    padding: 5%;
+}
+
+
+.navbar {
+    background-color: rgb(16, 0, 0);
+    font-size: 20px;
+    font-family: 'Rubik Bubbles', cursive;
+}
+
+.navbar-wrap {
+    height: inherit;
+    text-align: center;
+}
+
+.navbar-menu {
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.navbar-menu li {
+    /* background-color: blueviolet; */
+    padding: 10px 50px;
+}
+
+.navbar-menu li a{
+    text-decoration: none;
+    color: #39B96C/* #fbc984 */ /* #CFAA9D */;
+}
+
+.navbar-menu li a:hover {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.navbar-menu li a:link {
+    color: black;
+}
+
+.navbar-menu li a:visited {
+    text-decoration: none;
+}
+
+.navbar-menu li a:active {
+    text-decoration: none;
+    font-weight: normal;
+}
+
+.footer {
+    height: 300px;
+    width: 100%;
+    background-color: rgb(16, 0, 0);
+    padding-top: 3%;
+    padding-left: 5%;
+}
+
+.contact {
+    color: white;
+    text-align: left;
+    font-family: 'Rubik Bubbles', cursive;
+}
+
+.contact p {
+    font-family: 'Rubik Bubbles', cursive;
+    font-size: 48px;
+    margin-bottom: 30px;
+}
+
+.contact-list {
+    list-style-type: none;
+    
+}
+
+.contact-list a {
+    font-family: 'Rubik Bubbles';
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+}
+
+
+
